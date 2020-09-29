@@ -1,0 +1,96 @@
+#icon {
+    height:50px;
+}
+
+.description {
+    color: black;  
+}
+
+h2 {
+color: #d42c0b;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+#IoTform{
+    background-color: #dbdbdb;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding: 20px 20px;
+}
+
+#IoTform label[for=lights]{
+    font-weight: 900;
+} 
+#IoTform label[for=AC]{
+    font-weight: 900;
+} 
+#IoTform label[for=temperature]{
+    font-weight: 900;
+} 
+
+
+#btn{
+    color: white;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display:flex;
+    padding: 10px 50px;
+    width:100%;
+}
+
+.appicon{
+    height: 70px;
+    float: left;
+    
+}
+
+.points{
+    float: left;
+}
+
+.topnav {
+    background-color: #eeee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color:grey;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #eeecdc;
+    color:red;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  footer
+  {
+    position: absolute;
+    bottom:0;
+    height: 2rem;
+    text-align: right; 
+    width:99%;
+  }

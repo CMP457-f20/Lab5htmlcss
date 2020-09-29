@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IOT Lab5</title>
+</head>
+<body>
+    <a href="http://auscse.com/main/index.php"> <img id="icon" src="https://auscse.com/main/images/banner.png"></a>
+  <nav class="topnav" id="myTopnav">
+    <a href="home.html" class="active"> <i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="sensors.html" ><i class="fa fa-fw fa-cog"></i>Sensors</a>
+  </nav>
+    <p class="description">You can set up the lights, AC and temperature of the room by filling the form below. </p>
+   <form id="IoTform"  name="IoTform" action="" method="POST">    
+     <h2> COE547 Smart Lab Setup</h2>                       
+    <label for="lights">Lights: </label>
+    <input type="radio" id="ON" name="lightsAction">
+    <label for="ON"> ON</label>
+    <input type="radio" id="OFF" name="lightsAction">
+    <label for="OFF"> OFF</label>
+    <br>
+    <label for="AC">AC mode: </label>
+        <input type="radio" id="ON1" name="ACaction">
+        <label for="ON1"> ON</label>
+            <input type="radio" id="OFF1" name="ACaction">
+            <label for="OFF1"> OFF</label>
+    <br>                           
+    <label for="temperature">Temperature: </label>
+    <input type="text" id="temp" name="temp">
+    <br><br>
+    <input type="submit" id="btn" value="SUBMIT">
+    </form>
+</body>
+                    
+   <footer>
+      <p id="copyrights"> ©  Rawan Hazim and Shaham Kampala</p>
+   </footer>  
+
+</html>
+
+
+
+
+
